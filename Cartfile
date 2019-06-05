@@ -1,1 +1,1 @@
-github "AFNetworking/AFNetworking" ~> 3.0
+github "kinarob/AFNetworking" "Fix_Xcode11_compile_error"
