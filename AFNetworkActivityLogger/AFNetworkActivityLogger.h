@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "AFNetworkActivityLoggerProtocol.h"
+#import <AFNetworkActivityLogger/AFNetworkActivityLoggerProtocol.h>
 
 /**
  `AFNetworkActivityLogger` logs requests and responses made by AFNetworking, with an adjustable level of detail.
