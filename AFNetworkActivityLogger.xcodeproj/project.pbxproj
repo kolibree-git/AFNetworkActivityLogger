@@ -21,7 +21,6 @@
 		297DF57C1C1F1058001FA807 /* AFNetworkActivityConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 297DF5741C1F1058001FA807 /* AFNetworkActivityConsoleLogger.m */; };
 		297DF5841C1F1CA2001FA807 /* AFNetworkActivityLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 297DF5831C1F1CA2001FA807 /* AFNetworkActivityLoggerTests.m */; };
 		297DF5861C1F1CA2001FA807 /* AFNetworkActivityLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D96E651BCC34CD00F571A5 /* AFNetworkActivityLogger.framework */; };
-		297DF58C1C1F1CF1001FA807 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D96E781BCC3B9B00F571A5 /* AFNetworking.framework */; };
 		29D77AAA1BCC49E9005B1EF5 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D96E721BCC357B00F571A5 /* AFNetworkActivityLogger.m */; };
 		29D77AAE1BCC4A68005B1EF5 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D96E711BCC357B00F571A5 /* AFNetworkActivityLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29D77AAF1BCC4A6E005B1EF5 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D96E901BCC3F1D00F571A5 /* AFNetworkActivityLogger.h */; };
@@ -34,15 +33,10 @@
 		29D96E731BCC357B00F571A5 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D96E711BCC357B00F571A5 /* AFNetworkActivityLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29D96E741BCC357B00F571A5 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D96E721BCC357B00F571A5 /* AFNetworkActivityLogger.m */; };
 		29D96E921BCC3F1D00F571A5 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D96E901BCC3F1D00F571A5 /* AFNetworkActivityLogger.h */; };
-		29F28C241C1F1D84006BD785 /* AFNetworking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29D96E781BCC3B9B00F571A5 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		29F28C2E1C1F2628006BD785 /* AFNetworkActivityLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D77AC91BCC4D4D005B1EF5 /* AFNetworkActivityLogger.framework */; };
 		29F28C341C1F265C006BD785 /* AFNetworkActivityLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 297DF5831C1F1CA2001FA807 /* AFNetworkActivityLoggerTests.m */; };
-		29F28C351C1F2666006BD785 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D77AD21BCC4DA2005B1EF5 /* AFNetworking.framework */; };
-		29F28C371C1F267A006BD785 /* AFNetworking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29D77AD21BCC4DA2005B1EF5 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		29F28C411C1F2C54006BD785 /* AFNetworkActivityLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D77AA21BCC49C9005B1EF5 /* AFNetworkActivityLogger.framework */; };
 		29F28C471C1F2C76006BD785 /* AFNetworkActivityLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 297DF5831C1F1CA2001FA807 /* AFNetworkActivityLoggerTests.m */; };
-		29F28C481C1F2C81006BD785 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D77AAB1BCC4A01005B1EF5 /* AFNetworking.framework */; };
-		29F28C4B1C1F2C9D006BD785 /* AFNetworking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29D77AAB1BCC4A01005B1EF5 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		714C3638267BA9A900D200D4 /* AFNetworking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714C3637267BA9A900D200D4 /* AFNetworking.xcframework */; };
 		714C363B267BA9B500D200D4 /* AFNetworking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714C3637267BA9A900D200D4 /* AFNetworking.xcframework */; };
 		714C363E267BA9BB00D200D4 /* AFNetworking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714C3637267BA9A900D200D4 /* AFNetworking.xcframework */; };
@@ -83,36 +77,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29F28C231C1F1D7E006BD785 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				29F28C241C1F1D84006BD785 /* AFNetworking.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29F28C361C1F2671006BD785 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				29F28C371C1F267A006BD785 /* AFNetworking.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29F28C4A1C1F2C92006BD785 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				29F28C4B1C1F2C9D006BD785 /* AFNetworking.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -145,7 +109,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				297DF5861C1F1CA2001FA807 /* AFNetworkActivityLogger.framework in Frameworks */,
-				297DF58C1C1F1CF1001FA807 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +149,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				29F28C2E1C1F2628006BD785 /* AFNetworkActivityLogger.framework in Frameworks */,
-				29F28C351C1F2666006BD785 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +157,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				29F28C411C1F2C54006BD785 /* AFNetworkActivityLogger.framework in Frameworks */,
-				29F28C481C1F2C81006BD785 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +296,6 @@
 				297DF57D1C1F1CA2001FA807 /* Sources */,
 				297DF57E1C1F1CA2001FA807 /* Frameworks */,
 				297DF57F1C1F1CA2001FA807 /* Resources */,
-				29F28C231C1F1D7E006BD785 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -427,7 +387,6 @@
 				29F28C251C1F2628006BD785 /* Sources */,
 				29F28C261C1F2628006BD785 /* Frameworks */,
 				29F28C271C1F2628006BD785 /* Resources */,
-				29F28C361C1F2671006BD785 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -446,7 +405,6 @@
 				29F28C381C1F2C54006BD785 /* Sources */,
 				29F28C391C1F2C54006BD785 /* Frameworks */,
 				29F28C3A1C1F2C54006BD785 /* Resources */,
-				29F28C4A1C1F2C92006BD785 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -651,10 +609,6 @@
 		297DF58A1C1F1CA2001FA807 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -670,10 +624,6 @@
 		297DF58B1C1F1CA2001FA807 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1001,10 +951,6 @@
 		29F28C321C1F2628006BD785 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1021,10 +967,6 @@
 		29F28C331C1F2628006BD785 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1043,10 +985,6 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1065,10 +1003,6 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
